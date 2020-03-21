@@ -1,0 +1,88 @@
+*{
+	dark: #112d4e;
+	light: #f9f7f7;
+	ascent: #dbe2ef;
+}
+
+.login-view{
+	-fx-pref-width: 480px;
+	-fx-pref-height: 320px;
+}
+
+.login-logo-wrapper{
+	-fx-padding: 16px;
+	-fx-alignment: center;
+	-fx-background-color: ascent;
+}
+
+.login-title{
+	-fx-font-size: 20px;
+}
+
+.login-form{
+	-fx-alignment: center-left;
+	-fx-padding: 0 60 0 20;
+	-fx-spacing: 16px;
+	-fx-background-color: dark;
+}
+
+.login-form  Label {
+	-fx-text-fill: light;
+}
+
+.form-group {
+	-fx-spacing: 4px;
+}
+
+.login-form .text-field,
+.login-form .password-field {
+	-fx-background-color: transparent;
+	-fx-border-radius: 2px;
+	-fx-border-color: light;
+	-fx-text-fill: light;
+	-fx-prompt-text-fill: ascent;
+		
+}
+
+Button {
+	-fx-pref-width: 80px;
+	-fx-background-color: ascent;
+	-fx-text-fill: dark;
+}
+
+.main-frame{
+	-fx-pref-width: 980px;
+	-fx-pref-height: 600px;
+}
+
+.icon-button {
+	-fx-alignment: bottom-center;
+	-fx-padding: 8px;
+}
+
+.main-header{
+	-fx-background-color: dark;
+}
+
+.main-title-wrapper{
+	-fx-alignment: center-left;
+	-fx-padding: 0 0 0 20px;
+}
+
+.main-title-wrapper Label,
+.icon-button Label,
+.icon-button SVGPath {
+	-fx-text-fill: light;
+	-fx-fill: light;
+}
+
+.icon-button:hover {
+	-fx-background-color: light;
+	-fx-cursor: hand;
+}
+
+.icon-button:hover Label,
+.icon-button:hover SVGPath {
+	-fx-text-fill: dark;
+	-fx-fill: dark;
+}	
